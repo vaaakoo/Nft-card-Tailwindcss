@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Deniel Den" />
+    <link rel="shortcut icon" href="https://denielden.github.io/img/favicon.svg" type="image/svg+xml" />
+    <title>NFT preview card component | Frontend Mentor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <content class="flex min-h-screen w-screen items-center justify-center bg-blue px-4 sm:px-0">
+      <article class="flex mb-16 h-max w-80 rounded-2xl bg-card-blue p-6 text-lg font-normal text-soft-blue shadow-xl md:max-h-96 md:w-[90%]">
+        <div class="flex flex-col md:flex-row gap-2">
+          <div class="flex h-auto w-full md:object-scale-down ">
+            <button href="#" class="relative  overflow-hidden rounded-md" title="Equilibrium">
+              <div class="absolute flex h-full w-full items-center justify-center bg-opacity-0 opacity-0 transition-opacity duration-700 hover:bg-cyan hover:bg-opacity-70 hover:opacity-100">
+                <img src="https://www.svgrepo.com/show/75797/view.svg" class="w-14" alt="View icon" />
+              </div>
+              <img src="https://nft-preview-card-component-puce.vercel.app/static/e39748ba9f90a36609c83cfb5849f413/a08ff/image-equilibrium.webp" class="w-96 h-auto  "  alt="Equilibrium" />
+            </button>
+          </div>
+          <div>
+            <h1 class="mb-4 text-2xl font-semibold">
+              <a class="text-white transition-colors duration-1000 hover:text-cyan" href="#">Equilibrium #3429</a>
+            </h1>
+            <p class="mb-5">Our Equilibrium collection promotes balance and calm.</p>
+
+            <div class="mb-4 flex items-center justify-between border-b border-line pb-5">
+              <div class="flex items-center text-cyan">
+                <img src="https://raw.githubusercontent.com/denielden/tailwindcss-nft-preview-card/main/src/img/icon-ethereum.svg" alt="Ethereum icon" />
+                <p class="ml-1 font-semibold tracking-wide">0.041 ETH</p>
+              </div>
+              <div class="flex items-center">
+                <img src="https://raw.githubusercontent.com/denielden/tailwindcss-nft-preview-card/main/src/img/icon-clock.svg" alt="Clock days icon" />
+                <p class="ml-2 text-base">3 days left</p>
+              </div>
+            </div>
+            <div class="mb-2 flex items-center">
+              <img src="https://raw.githubusercontent.com/denielden/tailwindcss-nft-preview-card/main/src/img/avatar.webp" class="w-9 rounded-full border border-white" alt="Avatar" />
+              <p class="ml-4 text-base">Creation of <a class="text-white transition-colors duration-1000 hover:text-cyan" href="#">Jules Wyvern</a></p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </content>
+
+    <footer class="hidden sm:inline-block group fixed right-4 bottom-4 z-50 h-16 w-16 rounded-full bg-[url('https://avatars.githubusercontent.com/u/104096298?v=4')] bg-contain shadow-x2">
+      <div class="fixed right-24 bottom-6 z-50 w-52 rounded-lg bg-card-blue p-2 text-white opacity-95 shadow-xl transition-opacity duration-1000 group-hover:opacity-100 md:opacity-0">
+        <p>Challenge by <a href="https://www.frontendmentor.io" class="font-bold text-yellow-200 transition-colors duration-2000  hover:text-cyan">Frontend Mentor</a>. Coded by <a href="https://www.frontendmentor.io/profile/vaaakoo" class="font-bold text-yellow-200 transition-colors duration-2000 hover:text-cyan" >....@Vaaakoo....</a> </p>
+      </div>
+    </footer>
+  </body>
+</html>
