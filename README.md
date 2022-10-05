@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github](https://github.com/vaaakoo/Tailwindcss-Nft_Card)
+- Solution URL: [github](https://vaaakoo.github.io/Nft-card-Tailwindcss/)
 - Live Site URL: [live site](#)
 
 
