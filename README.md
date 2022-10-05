@@ -1,5 +1,8 @@
 # NFT preview card component - Frontend Mentor
 
+## [![Link](https://img.shields.io/badge/<SITE>-<LINK>-<blue>)](https://vaaakoo.github.io/Nft-card-Tailwindcss/)
+
+
 This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U).
 
 ## Table of contents
